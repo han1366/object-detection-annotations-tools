@@ -7,7 +7,7 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 parent_path = os.path.abspath(os.path.join(os.getcwd(), os.pardir))
 print(parent_path)
-GT_PATH = os.path.join(parent_path, 'data/thirdVideo', '2021_0312_pic')
+GT_PATH = os.path.join(parent_path, 'data/thirdVideo', '0312_pic')
 #'data/secondVideo' is image parent path
 #'first' is image file name
 #these strings need modify
