@@ -33,7 +33,7 @@ def video2image(num,getvideo,tofiles):
     print('\n 运行结束!')
 
 
-
+ 
 
 
 if __name__=='__main__':
