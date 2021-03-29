@@ -17,7 +17,7 @@ def video2image(num,getvideo,tofiles):
     else:
         rval = False
 
-    timeF = 150
+    timeF = 150 #timeF帧保留一张图片
 
     while rval:
         rval,frame = vc.read()
@@ -37,8 +37,7 @@ def video2image(num,getvideo,tofiles):
 
 
 if __name__=='__main__':
-    # getvideo = 'J:/qc/01/ch01_20201206083023.mp4'
-    tofiles = './data/2021_0325_pic/'
+    tofiles = './data/0325_pic/'
     file_dir = './data/forthVideo/'
     for root, dirs, files in os.walk(file_dir):
         for i, file in enumerate(files):
