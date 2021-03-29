@@ -3,7 +3,7 @@ import xml.etree.ElementTree as ET
 import os
 import shutil
 
-hole_path = './newMaskAnnotations'
+hole_path = './maskAnnotations'
 arm_path = './person'
 out_path = './Fusing'
 print(os.listdir(hole_path))
